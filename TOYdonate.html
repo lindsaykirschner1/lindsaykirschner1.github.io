@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www/w3/org/TR/xhtml/11/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- NAME: LINDSAY KIRSCHNER-->
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="hw1css.css">
+    <title> Donate </title>
+
+</head>
+
+<body>
+
+    <!-- top of the page -->
+    <div class="top">
+
+        <!-- logo -->
+        <div class="logo">
+            <a href="hw1.html"><img src="images/toylogo.png" alt="TOYlogo"></a>
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="TOYabout.html">ABOUT</a></li>
+                    <li><a href="TOYstories.html">STORIES</a></li>
+                    <li><a href="TOYdonate.html">DONATE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- background image + text -->
+    <div>
+
+        <!-- text over bg image -->
+        <div class="storiestext">
+            <h1> DONATE </h1>
+        </div>
+
+        <!-- background image -->
+        <img class="storiesbg" src="images/sheetmusic13.jpg" alt="long piano">
+    </div>
+
+    <br><br>
+    <center>
+    <form action="https://www.paypal.com/donate" method="post" target="_top" onclick="clicked()">
+        <input type="hidden" name="business" value="992WBR2HAJNAJ" />
+        <input type="hidden" name="no_recurring" value="0" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+    </form>
+    </center>
+
+    <script>
+        function clicked() {
+            alert("Thank you for donating!");
+        }
+    </script>
+		
+</body>
